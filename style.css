@@ -1,0 +1,49 @@
+h1{
+    color: #4385f0;
+    text-align: center;
+    background-color: #e3b946;
+    margin-left: 30px;
+}
+body{
+    background: #87e6c0;
+}
+p{
+    background-color: #b0419d;
+}
+*{
+    border: solid;
+}
+
+.header{
+    background: #f2493d;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+.games{
+    text-align: center;
+    position: relative;
+}
+.games p{
+    position: relative;
+    opacity: 0;
+}
+.menu a{
+    margin-right: 30px;
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color:greenyellow;
+}
+.games:hover p{
+    opacity: 1;
+}
+.games:hover img{
+    opacity: 0.33;
+}
